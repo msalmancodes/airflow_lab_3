@@ -1,0 +1,45 @@
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+unittests.cfg
+webserver_config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Environment
+.env
+venv/
+env/
+
+# Docker
+docker-compose.override.yaml
+
+# Outputs (optional - remove these lines if you want to commit outputs)
+dags/outputs/audio/*.mp3
+dags/outputs/audio/*.wav
+dags/outputs/frames/*.jpg
+dags/outputs/frames/*.png
+dags/outputs/text/*.txt
+
+# Videos (large files - don't commit to git)
+dags/videos/*.mp4
+dags/videos/*.avi
+dags/videos/*.mov
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
