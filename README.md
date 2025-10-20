@@ -50,7 +50,7 @@ Video Input
 
 ### Airflow DAG Visualization
 
-![Airflow DAG Graph](Assets/Screenshot 2025-10-19 at 23.24.30.png)
+![Airflow DAG Graph](Assets/Screenshot%202025-10-19%20at%2023.24.30.png)
 
 *Live view of the Video Processing Pipeline in Airflow UI showing task dependencies and parallel execution*
 
